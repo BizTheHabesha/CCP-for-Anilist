@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "xstring": "cpp",
+        "iostream": "cpp",
+        "vector": "cpp",
+        "stdexcept": "cpp"
+    },
+    "python.analysis.diagnosticSeverityOverrides": {
+        
+    }
+}
