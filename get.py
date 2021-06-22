@@ -1,4 +1,5 @@
-""" A series of bite sized functions to wrap query posts to the AniList API 
+""" 
+A series of bite sized functions to wrap query posts to the AniList API 
  * postQuery(q, v): Post to the API with the given query and variables. Has built in response handling. Will return the json if posssible, otherwise will return the server
  reponse. Called upon by other functions
  * getAnimeOBJ(id): get the anime object with the given ID
@@ -6,11 +7,6 @@
  * getUser(search, name, id, sort): get the user of a given id or retrun a list of users correspoding to the search term. sort is limited to the UserSort enums
  * writeToSpreadSheet(info): log info [deprecated]
  """
-
-
-"""
-TODO! Change postQuery() to return the Response itself. Handle text, json, etc. entierly outside of the query method.
-"""
 
 import os
 import subprocess

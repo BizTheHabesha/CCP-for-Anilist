@@ -16,7 +16,7 @@ A way to edit settings for the application. Config IDs are as follows: \n
         20 - PDF of the query page \n
         21 - Raw JSON
 4 - File location
-    TODO - How to send full strings with push.cpp? Possibly use different method for this config specifically?
+    
 """
 
 import sys
