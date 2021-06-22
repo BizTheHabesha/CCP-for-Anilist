@@ -1,5 +1,10 @@
 """
-A way to edit settings for the application. Config IDs are as follows: \n
+A way to edit settings for the application.
+ * pull(configId): get a specific config
+ * push(configId, new): set a specific config to a new value
+ * formatJSON(json): format the json returned by get.py
+
+Config IDs are as follows: \n
 1 - Items per page:
     Any valid integer
 2 - Query Return Format:
