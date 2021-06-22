@@ -33,7 +33,7 @@ int trySTOI(string sInput){
         return -1;
     }catch(...){
         cerr << "Error: --Undefined-Throw catch_all abort()\n";
-        cout << "Sorry, something unexpected happend, and the program had to close! Please report the issue\n";
+        cout << "Sorry, something unexpected happened and the program has to close! Please report the issue\n";
         abort();
     }
     return -1;
@@ -44,7 +44,6 @@ bool ableFSTREAM(string location){
     file.open(location);
     try{
         if(file.is_open()){
-            file.close();
             return true;
         }else if(!file.is_open()){
             throw runtime_error(string("fstream: failed to open \"")+=location+=string("\""));
